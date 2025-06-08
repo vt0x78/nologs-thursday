@@ -1,1 +1,0 @@
-# nologs-thursday
